@@ -5,3 +5,6 @@ console.log(wee);
 const greeting = "Hello";
 const name = "Chris";
 console.log(greeting + ", " + name);
+const myText = 'I am a string';
+const newString = myText.replace('string', 'sausage');
+console.log(newString);

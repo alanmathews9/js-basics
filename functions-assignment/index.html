@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Page Title</title>
+</head>
+
+<body>
+    
+    <script>
+        function add7(num){
+            num=num+7;
+            console.log(num);
+        }
+        function multiply(num1,num2) {
+                num1 = num1*num2;
+                console.log(num1);
+        }
+        
+        function capitilize(z){
+            let p = z.charAt(0);
+            let u = p.toUpperCase();
+            let o = z.slice(1);
+            return u + o;
+        }
+        function lastLetter(z){
+            let p = z.length;
+            return z.charAt(p-1);
+        }
+        add7(5);
+        multiply(3,4);
+        console.log(capitilize("hi"));
+        console.log(lastLetter("abcdef"));
+    </script>
+</body>
+
+</html>
